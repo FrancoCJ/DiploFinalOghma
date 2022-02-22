@@ -1,0 +1,39 @@
+header .holder{
+	align-content: center;
+	background-color: #17579C;
+	padding: 0.3em 0;
+	height: 175px;
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+  	z-index: 99;
+
+}
+header h1{
+	color: #9C7127;
+	font-size: 3em;
+	font-style: italic;
+	font-weight: 800;
+	display: inline-block;
+	position: relative;
+	bottom: 35px;
+	text-shadow: 1px 1px #519AE8;
+	padding-top: 10px;
+}
+header img{
+	float: left;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 5px;
+}
+header h3{
+	display: inline-block;
+	position: relative;
+	bottom: 100px;
+	padding-top: 10px;
+	left: 125px
+}
+header .busqueda{
+	float: right;
+	padding-right: 12px;
+}

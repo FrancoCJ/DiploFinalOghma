@@ -1,0 +1,12 @@
+footer .holder{
+	background-color: #ccc;
+	clear: both;
+	color: #333;
+	padding: 0.01em 0;
+	text-align: center;
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 99;
+
+}

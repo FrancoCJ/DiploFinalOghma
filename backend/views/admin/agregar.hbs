@@ -1,0 +1,22 @@
+<dir class="container" style="margin:100px auto">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <h4>Agregar novedad</h4>
+            <form action="/admin/novedades/agregar" method="post" enctype="multipart/form-data" style="display: inline-block;">
+                <div class="mb-3 rown">
+                    <input type="text" class="form-control" name="titulo" placeholder="Titulo">
+                </div>
+                <div class="mb-3 rown">
+                    <input type="text" class="form-control" name="cuerpo" placeholder="Cuerpo">
+                </div>
+                <div class="mb-3 rown">
+                    <label for="">Imagen: <input type="file"  name="imagen" id="imagen"></label>
+                </div>
+                <button type="submit" class="btn btn-primary" style="display: inline-flex">Guardar</button>
+            </form>
+            {{#if error}}
+                <h5>{{message}}</h5>
+            {{/if}}
+        </div>
+    </div>
+</dir>

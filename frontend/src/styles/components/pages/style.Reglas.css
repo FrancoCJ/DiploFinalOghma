@@ -1,0 +1,55 @@
+main .Reglas{
+	background-color: #ccc;
+	clear: both;
+	color: #333;
+	width: 960px;
+	min-height : 70vh;
+	margin: 0 auto;
+  border: 3px;
+	
+}
+.botones {
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
+.botones > div {
+  display: flex; 
+  flex-basis: calc(25% - 89px);  
+  justify-content: space-evenly;
+  flex-direction: column;
+  }
+.botones > div > div {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  }
+  
+.box {
+  margin: 24px; 
+  background-color: #ccc;
+  overflow-wrap: break-word;
+  width: 111px;
+  align-items:center;
+  flex-direction: column;
+  
+  }
+.botones{
+  align-items: baseline;
+  align-content: center;
+  text-align: center;
+  }
+main > div > div > a > div > div >  p {
+  font-size: 12px;
+  margin: -3px;
+  }
+ main > div > div > a > div > div > img {
+  width: 50px;
+  }
+  
+main > div > div > a {
+  text-decoration: none; /* no underline */
+  }

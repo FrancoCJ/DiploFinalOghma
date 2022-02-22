@@ -1,0 +1,59 @@
+nav .holder{
+  background-color: #FFCC73;
+  overflow: hidden;
+  white-space: no wrap;
+  text-align: center;
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 99;
+}
+nav .holder ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+nav .holder ul li{
+  display: inline-block;
+  margin: 15px;
+}
+nav .holder ul li a:hover{
+  background-color: #9C8410;
+  position: relative;
+  top: 0;
+  left: 0;
+  transform: none;
+}
+nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav .activo{
+	background-color: lightblue;
+}
+nav .dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: #FFCC73;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+nav .dropdown-content a {
+  color: black;
+  padding: 7px 8px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+nav .dropdown-content a:hover {
+	background-color: #ddd;
+}
+nav .dropdown:hover .dropdown-content {
+  display: block;
+}
+nav .dropdown:hover .dropbtn {
+	background-color: ##FFCC73;
+}
