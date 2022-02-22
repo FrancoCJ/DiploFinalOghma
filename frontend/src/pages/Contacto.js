@@ -26,7 +26,7 @@ const Contacto = (props) => {
 		setMsg('');
 		setSending(true)
 		const response = await
-		axios.post('http://localhost:3000/api/Contacto', formData);
+		axios.post(`${process.env.REACT_APP_API_URL}/api/Contacto`, formData);
 		setSending(false);
 		setMsg(response.data.message);
 		if (response.data.error === false) {

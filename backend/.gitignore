@@ -24,3 +24,5 @@ yarn-error.log*
 import.bat
 .env
 usuarios.sql
+mydbdump.sql
+config.txt

@@ -33,7 +33,7 @@ const Reglas = (props) => {
 					<a>
 					<div className="box box1">
 							<div className="text">
-								<img src={`${process.env.PUBLIC_URL}equipo.png`}></img>
+								<img src={`${process.env.PUBLIC_URL}equipo.png`}></img> 
 								<p>Equipo</p>
 							</div>
 						</div>
@@ -49,7 +49,7 @@ const Reglas = (props) => {
 					<a>
 					<div className="box box1">
 							<div className="text">
-								<img src={`${process.env.PUBLIC_URL}Trasfondos.png`}></img>
+								<img src={`${process.env.PUBLIC_URL}trasfondos.png`}></img>
 								<p>Trasfondos</p>
 							</div>
 						</div>
@@ -65,7 +65,7 @@ const Reglas = (props) => {
 					<a>
 					<div className="box box1">
 							<div className="text">
-								<img src={`${process.env.PUBLIC_URL}Monstruos.png`}></img>
+								<img src={`${process.env.PUBLIC_URL}monstruos.png`}></img>
 								<p>Monstruos y NPCs</p>
 							</div>
 						</div>
