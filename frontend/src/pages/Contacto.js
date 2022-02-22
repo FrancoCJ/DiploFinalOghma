@@ -6,7 +6,7 @@ import style from '../styles/components/pages/style.Contacto.css';
 const Contacto = (props) => {
 	const initialForm = {
 		nombre: '',
-		correo: '',
+		email: '',
 		mensaje: ''
 	}
 	const [sending, setSending] = useState(false);
